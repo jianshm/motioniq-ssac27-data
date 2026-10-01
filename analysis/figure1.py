@@ -80,9 +80,9 @@ ax.set_xticks([0, 1]); ax.set_xticklabels([g[0] for g in groups])
 ax.set_xlim(-0.5, 1.95)
 ax.set_ylim(0, 42)
 ax.set_yticks([0, 10, 20, 30, 40])
-ax.set_ylabel("Change within ±3 samples of release (°)")
-ax.set_title("Angle change within ≈ one frame", loc="left", fontsize=9, pad=9)
-ax.text(0, 1.005, "samples rel−3 … rel+3 (≈ ±30 ms at inferred 100 Hz)", transform=ax.transAxes,
+ax.set_ylabel("Range across ±3 samples of release (°)")
+ax.set_title("Angle range across ±3 samples", loc="left", fontsize=9, pad=9)
+ax.text(0, 1.005, "rel−3 … rel+3: ≈60 ms total at inferred 100 Hz", transform=ax.transAxes,
         color=INK2, fontsize=7, va="bottom")
 ax.yaxis.grid(True, color=GRID, lw=0.8); ax.set_axisbelow(True)
 ax.tick_params(length=0)
