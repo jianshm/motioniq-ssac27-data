@@ -1,6 +1,8 @@
 # motioniq-ssac27-data
 
-Released data behind **"When Should a Phone Refuse to Measure? Confidence-Gated Single-Camera Biomechanics for Cricket Fast Bowling"** — an abstract submitted to the MIT Sloan Sports Analytics Conference 2027 Research Paper Competition (sole author: Jiansh Maker; October 1, 2026). Every number in the abstract's Table 1 and Figure 1 can be recomputed from the files here with two short scripts. The measurement pipeline itself (pose estimation, event detection, confidence gating, provenance) is not part of this release; the competition requires the data, and encourages but does not require the model code.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23073507.svg)](https://doi.org/10.5281/zenodo.23073507) · Pre-registration: [osf.io/sxawp](https://osf.io/sxawp)
+
+Released data behind **"When Should a Phone Refuse to Measure? Confidence-Gated Single-Camera Biomechanics for Cricket Pace Bowling"** — an abstract submitted to the MIT Sloan Sports Analytics Conference 2027 Research Paper Competition (sole author: Jiansh Maker; October 1, 2026). Every number in the abstract's Table 1 and Figure 1 can be recomputed from the files here with two short scripts. The measurement pipeline itself (pose estimation, event detection, confidence gating, provenance) is not part of this release; the competition requires the data, and encourages but does not require the model code.
 
 ## What is here
 

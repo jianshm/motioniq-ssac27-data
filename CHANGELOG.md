@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.1.0-abstract — 2026-10-01 (planned)
+## v0.1.0-abstract — 2026-09-30 (released; doi:10.5281/zenodo.23073507)
 - Camera metrics with provenance for three clips of athlete P01 (1080×1920, 480×848, low-light control), exported from pipeline commit c48c714.
 - Sensor session envelopes (aggregates; January and July sessions, n = 3 deliveries each).
 - Pre-specified tolerances, verdict rule and gate thresholds (`data/thresholds.json`).

@@ -4,7 +4,7 @@ import os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PATTERNS = {
     "file path": r"/Users/|/home/|C:\\\\",
-    "url": r"https?://(?!creativecommons\.org|github\.com/jianshm|doi\.org)",
+    "url": r"https?://(?!creativecommons\.org|github\.com/jianshm|doi\.org|zenodo\.org|osf\.io)",
     "email": r"[\w.+-]+@[\w-]+\.[\w.]+",
     "original file name": r"IMG_\d{3,5}|\.MOV|\.mov|\.mp4",
     "uuid": r"\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b",
