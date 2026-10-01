@@ -1,0 +1,27 @@
+{
+ "pre_specified_on": "2026-09-10 (before the sensor comparison; LOI v3 Exhibit A and compare2.py)",
+ "tolerances": {
+  "front_knee_flexion_at_ffc_deg": 7,
+  "other_angles_deg": 5,
+  "timing_ms": 25,
+  "shoulder_hip_separation_deg": {
+   "value": 7,
+   "status": "exploratory for both systems"
+  }
+ },
+ "verdict_rule": "CLOSE if |delta| <= tolerance; MODERATE if <= 2x tolerance; OFF beyond. Delta = camera - sensor session mean. Deltas from unrounded values.",
+ "discriminates_rule": "a test is discriminating when the sensor envelope SD (n = 3) is narrower than the tolerance; provisional at n = 3",
+ "gates_in_code": {
+  "metric_min_landmark_visibility": 0.35,
+  "clip_pose_detection_min": 0.5,
+  "release_frame_visibility_min": 0.5,
+  "bowler_bbox_height_min_fraction_of_frame": 0.25,
+  "event_observed_min_mean_visibility": 0.5,
+  "reliable_tier_min_confidence": 0.7
+ },
+ "back_foot_contact": "withheld on every clip (ADR-0020): no selector reproduced frame-adjudicated contact on 0 of 3 clips",
+ "sensor_sampling_rate_hz": {
+  "value": 100,
+  "status": "inferred from run-up stride cadence; not confirmed by the manufacturer; all millisecond figures depend on it"
+ }
+}

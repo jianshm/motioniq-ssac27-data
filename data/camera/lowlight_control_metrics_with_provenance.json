@@ -1,0 +1,2901 @@
+{
+ "computed": false,
+ "poseDetectionRate": 0.094,
+ "nFramesWithPose": 34,
+ "nFramesTotal": 363,
+ "bowlingArm": "right",
+ "phases": {
+  "backFootContactFrame": null,
+  "frontFootContactFrame": null,
+  "releaseFrame": 316,
+  "followThroughEndFrame": 330
+ },
+ "atFfcMetrics": [],
+ "atReleaseMetrics": [],
+ "followThroughMetrics": [],
+ "metricCounts": {
+  "total": 0,
+  "reliable": 0,
+  "lowConfidence": 0
+ },
+ "notes": [
+  "Front-foot contact not shown: the front ankle was not visible 60-450 ms before release at this clip's frame rate.",
+  "YOLO/pose release cross-check: 0.00 (YOLO frame 316, pose frame 297).",
+  "Bowling elbow angle not shown: the right wrist was not reliably visible at release (visibility 0.23).",
+  "Wrist height above head not shown: the right wrist was not reliably visible at release (visibility 0.23).",
+  "Bowling-arm deceleration distance not shown: the right wrist was not reliably visible at release (visibility 0.23).",
+  "Release measurements not shown: the bowler\u2019s body wasn\u2019t clearly visible on that frame (mean landmark visibility 0.37). Film closer, in better light, and keep the whole body in frame.",
+  "2D pose metrics are camera-angle-sensitive. This down-the-pitch (front-on) shot foreshortens the bowling arm; expect \u00b15\u00b0 on elbow/shoulder angles. Film side-on for the most accurate biomechanics.",
+  "Skeleton locked to the verified bowler from the identification step.",
+  "The bowler could only be told apart from the other players for 284 of 363 frames. The skeleton is hidden for the rest of the clip rather than drawn on whoever is nearest."
+ ],
+ "reasonNotComputed": "capture_failed:release_not_observed",
+ "frameWidth": 480,
+ "frameHeight": 848,
+ "fps": 23.945,
+ "poseFrames": [
+  {
+   "frame": 164,
+   "timeSec": 6.84,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4693,
+     "y": 0.3698,
+     "visibility": 0.995
+    },
+    {
+     "index": 11,
+     "x": 0.4603,
+     "y": 0.3644,
+     "visibility": 1.0
+    },
+    {
+     "index": 12,
+     "x": 0.4745,
+     "y": 0.3638,
+     "visibility": 0.999
+    },
+    {
+     "index": 13,
+     "x": 0.4551,
+     "y": 0.3571,
+     "visibility": 0.531
+    },
+    {
+     "index": 14,
+     "x": 0.4757,
+     "y": 0.3561,
+     "visibility": 0.438
+    },
+    {
+     "index": 15,
+     "x": 0.4545,
+     "y": 0.3522,
+     "visibility": 0.244
+    },
+    {
+     "index": 16,
+     "x": 0.4688,
+     "y": 0.3546,
+     "visibility": 0.365
+    },
+    {
+     "index": 23,
+     "x": 0.4627,
+     "y": 0.3513,
+     "visibility": 1.0
+    },
+    {
+     "index": 24,
+     "x": 0.4705,
+     "y": 0.3513,
+     "visibility": 1.0
+    },
+    {
+     "index": 25,
+     "x": 0.4606,
+     "y": 0.3404,
+     "visibility": 0.491
+    },
+    {
+     "index": 26,
+     "x": 0.4688,
+     "y": 0.3417,
+     "visibility": 0.449
+    },
+    {
+     "index": 27,
+     "x": 0.4602,
+     "y": 0.3333,
+     "visibility": 0.511
+    },
+    {
+     "index": 28,
+     "x": 0.4677,
+     "y": 0.3342,
+     "visibility": 0.47
+    }
+   ]
+  },
+  {
+   "frame": 165,
+   "timeSec": 6.88,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4697,
+     "y": 0.3734,
+     "visibility": 0.995
+    },
+    {
+     "index": 11,
+     "x": 0.4614,
+     "y": 0.3676,
+     "visibility": 1.0
+    },
+    {
+     "index": 12,
+     "x": 0.4749,
+     "y": 0.3674,
+     "visibility": 0.999
+    },
+    {
+     "index": 13,
+     "x": 0.4597,
+     "y": 0.3619,
+     "visibility": 0.529
+    },
+    {
+     "index": 14,
+     "x": 0.4748,
+     "y": 0.3617,
+     "visibility": 0.451
+    },
+    {
+     "index": 15,
+     "x": 0.4644,
+     "y": 0.3622,
+     "visibility": 0.233
+    },
+    {
+     "index": 16,
+     "x": 0.4706,
+     "y": 0.3622,
+     "visibility": 0.371
+    },
+    {
+     "index": 23,
+     "x": 0.4632,
+     "y": 0.3537,
+     "visibility": 1.0
+    },
+    {
+     "index": 24,
+     "x": 0.471,
+     "y": 0.354,
+     "visibility": 1.0
+    },
+    {
+     "index": 25,
+     "x": 0.4615,
+     "y": 0.3414,
+     "visibility": 0.481
+    },
+    {
+     "index": 26,
+     "x": 0.4661,
+     "y": 0.3445,
+     "visibility": 0.432
+    },
+    {
+     "index": 27,
+     "x": 0.4602,
+     "y": 0.3333,
+     "visibility": 0.497
+    },
+    {
+     "index": 28,
+     "x": 0.4681,
+     "y": 0.3362,
+     "visibility": 0.443
+    }
+   ]
+  },
+  {
+   "frame": 166,
+   "timeSec": 6.92,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.47,
+     "y": 0.373,
+     "visibility": 0.995
+    },
+    {
+     "index": 11,
+     "x": 0.4629,
+     "y": 0.3687,
+     "visibility": 1.0
+    },
+    {
+     "index": 12,
+     "x": 0.4752,
+     "y": 0.3681,
+     "visibility": 0.999
+    },
+    {
+     "index": 13,
+     "x": 0.4607,
+     "y": 0.3641,
+     "visibility": 0.49
+    },
+    {
+     "index": 14,
+     "x": 0.4747,
+     "y": 0.3628,
+     "visibility": 0.447
+    },
+    {
+     "index": 15,
+     "x": 0.4639,
+     "y": 0.3646,
+     "visibility": 0.227
+    },
+    {
+     "index": 16,
+     "x": 0.4716,
+     "y": 0.3635,
+     "visibility": 0.398
+    },
+    {
+     "index": 23,
+     "x": 0.4645,
+     "y": 0.3561,
+     "visibility": 1.0
+    },
+    {
+     "index": 24,
+     "x": 0.4713,
+     "y": 0.3561,
+     "visibility": 0.999
+    },
+    {
+     "index": 25,
+     "x": 0.4628,
+     "y": 0.3468,
+     "visibility": 0.445
+    },
+    {
+     "index": 26,
+     "x": 0.467,
+     "y": 0.348,
+     "visibility": 0.399
+    },
+    {
+     "index": 27,
+     "x": 0.4632,
+     "y": 0.3379,
+     "visibility": 0.487
+    },
+    {
+     "index": 28,
+     "x": 0.4671,
+     "y": 0.3391,
+     "visibility": 0.429
+    }
+   ]
+  },
+  {
+   "frame": 167,
+   "timeSec": 6.96,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4682,
+     "y": 0.3723,
+     "visibility": 0.995
+    },
+    {
+     "index": 11,
+     "x": 0.4626,
+     "y": 0.3682,
+     "visibility": 1.0
+    },
+    {
+     "index": 12,
+     "x": 0.4742,
+     "y": 0.3682,
+     "visibility": 0.999
+    },
+    {
+     "index": 13,
+     "x": 0.4602,
+     "y": 0.3621,
+     "visibility": 0.526
+    },
+    {
+     "index": 14,
+     "x": 0.4775,
+     "y": 0.362,
+     "visibility": 0.441
+    },
+    {
+     "index": 15,
+     "x": 0.4616,
+     "y": 0.3599,
+     "visibility": 0.289
+    },
+    {
+     "index": 16,
+     "x": 0.4737,
+     "y": 0.3605,
+     "visibility": 0.41
+    },
+    {
+     "index": 23,
+     "x": 0.4647,
+     "y": 0.3561,
+     "visibility": 1.0
+    },
+    {
+     "index": 24,
+     "x": 0.4711,
+     "y": 0.3561,
+     "visibility": 0.999
+    },
+    {
+     "index": 25,
+     "x": 0.4621,
+     "y": 0.3468,
+     "visibility": 0.487
+    },
+    {
+     "index": 26,
+     "x": 0.4691,
+     "y": 0.3479,
+     "visibility": 0.424
+    },
+    {
+     "index": 27,
+     "x": 0.4626,
+     "y": 0.3389,
+     "visibility": 0.533
+    },
+    {
+     "index": 28,
+     "x": 0.4677,
+     "y": 0.3403,
+     "visibility": 0.472
+    }
+   ]
+  },
+  {
+   "frame": 168,
+   "timeSec": 7.04,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4682,
+     "y": 0.3738,
+     "visibility": 0.995
+    },
+    {
+     "index": 11,
+     "x": 0.4626,
+     "y": 0.3692,
+     "visibility": 1.0
+    },
+    {
+     "index": 12,
+     "x": 0.4755,
+     "y": 0.3692,
+     "visibility": 0.999
+    },
+    {
+     "index": 13,
+     "x": 0.4612,
+     "y": 0.363,
+     "visibility": 0.537
+    },
+    {
+     "index": 14,
+     "x": 0.4792,
+     "y": 0.3623,
+     "visibility": 0.45
+    },
+    {
+     "index": 15,
+     "x": 0.4642,
+     "y": 0.3601,
+     "visibility": 0.322
+    },
+    {
+     "index": 16,
+     "x": 0.4787,
+     "y": 0.3594,
+     "visibility": 0.43
+    },
+    {
+     "index": 23,
+     "x": 0.4655,
+     "y": 0.3572,
+     "visibility": 1.0
+    },
+    {
+     "index": 24,
+     "x": 0.4725,
+     "y": 0.3572,
+     "visibility": 0.999
+    },
+    {
+     "index": 25,
+     "x": 0.463,
+     "y": 0.3482,
+     "visibility": 0.473
+    },
+    {
+     "index": 26,
+     "x": 0.4709,
+     "y": 0.3487,
+     "visibility": 0.399
+    },
+    {
+     "index": 27,
+     "x": 0.4633,
+     "y": 0.3396,
+     "visibility": 0.543
+    },
+    {
+     "index": 28,
+     "x": 0.4693,
+     "y": 0.3406,
+     "visibility": 0.466
+    }
+   ]
+  },
+  {
+   "frame": 169,
+   "timeSec": 7.08,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4693,
+     "y": 0.3738,
+     "visibility": 0.995
+    },
+    {
+     "index": 11,
+     "x": 0.4636,
+     "y": 0.37,
+     "visibility": 1.0
+    },
+    {
+     "index": 12,
+     "x": 0.4755,
+     "y": 0.3698,
+     "visibility": 0.999
+    },
+    {
+     "index": 13,
+     "x": 0.4613,
+     "y": 0.3655,
+     "visibility": 0.5
+    },
+    {
+     "index": 14,
+     "x": 0.4781,
+     "y": 0.3643,
+     "visibility": 0.421
+    },
+    {
+     "index": 15,
+     "x": 0.4639,
+     "y": 0.3635,
+     "visibility": 0.307
+    },
+    {
+     "index": 16,
+     "x": 0.4769,
+     "y": 0.3626,
+     "visibility": 0.409
+    },
+    {
+     "index": 23,
+     "x": 0.466,
+     "y": 0.3586,
+     "visibility": 0.999
+    },
+    {
+     "index": 24,
+     "x": 0.4727,
+     "y": 0.3583,
+     "visibility": 0.999
+    },
+    {
+     "index": 25,
+     "x": 0.4636,
+     "y": 0.3523,
+     "visibility": 0.439
+    },
+    {
+     "index": 26,
+     "x": 0.4711,
+     "y": 0.3503,
+     "visibility": 0.371
+    },
+    {
+     "index": 27,
+     "x": 0.4636,
+     "y": 0.3423,
+     "visibility": 0.536
+    },
+    {
+     "index": 28,
+     "x": 0.4695,
+     "y": 0.3423,
+     "visibility": 0.456
+    }
+   ]
+  },
+  {
+   "frame": 170,
+   "timeSec": 7.12,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4679,
+     "y": 0.3736,
+     "visibility": 0.995
+    },
+    {
+     "index": 11,
+     "x": 0.4644,
+     "y": 0.3693,
+     "visibility": 1.0
+    },
+    {
+     "index": 12,
+     "x": 0.4768,
+     "y": 0.3694,
+     "visibility": 0.999
+    },
+    {
+     "index": 13,
+     "x": 0.4628,
+     "y": 0.3646,
+     "visibility": 0.472
+    },
+    {
+     "index": 14,
+     "x": 0.4817,
+     "y": 0.3639,
+     "visibility": 0.419
+    },
+    {
+     "index": 15,
+     "x": 0.4676,
+     "y": 0.3629,
+     "visibility": 0.306
+    },
+    {
+     "index": 16,
+     "x": 0.4792,
+     "y": 0.3619,
+     "visibility": 0.407
+    },
+    {
+     "index": 23,
+     "x": 0.4677,
+     "y": 0.3576,
+     "visibility": 0.999
+    },
+    {
+     "index": 24,
+     "x": 0.4751,
+     "y": 0.3574,
+     "visibility": 0.999
+    },
+    {
+     "index": 25,
+     "x": 0.4623,
+     "y": 0.3524,
+     "visibility": 0.452
+    },
+    {
+     "index": 26,
+     "x": 0.4746,
+     "y": 0.3493,
+     "visibility": 0.381
+    },
+    {
+     "index": 27,
+     "x": 0.4648,
+     "y": 0.3428,
+     "visibility": 0.562
+    },
+    {
+     "index": 28,
+     "x": 0.4714,
+     "y": 0.3425,
+     "visibility": 0.48
+    }
+   ]
+  },
+  {
+   "frame": 274,
+   "timeSec": 11.44,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.5002,
+     "y": 0.4331,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4941,
+     "y": 0.4359,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.5056,
+     "y": 0.4356,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4907,
+     "y": 0.4358,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.5058,
+     "y": 0.4357,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4935,
+     "y": 0.434,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.502,
+     "y": 0.4335,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.4962,
+     "y": 0.4333,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5025,
+     "y": 0.4331,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.495,
+     "y": 0.4306,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.5029,
+     "y": 0.4301,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.4953,
+     "y": 0.4295,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.5011,
+     "y": 0.4302,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 277,
+   "timeSec": 11.56,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4905,
+     "y": 0.4302,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4846,
+     "y": 0.4276,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4975,
+     "y": 0.4329,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4814,
+     "y": 0.4243,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.5015,
+     "y": 0.4302,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4845,
+     "y": 0.4227,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.5046,
+     "y": 0.4253,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.4909,
+     "y": 0.4273,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.4974,
+     "y": 0.4302,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.4905,
+     "y": 0.4268,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.496,
+     "y": 0.43,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.4894,
+     "y": 0.429,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.492,
+     "y": 0.4313,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 278,
+   "timeSec": 11.6,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4879,
+     "y": 0.4323,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4824,
+     "y": 0.4317,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4944,
+     "y": 0.4341,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.479,
+     "y": 0.4274,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4948,
+     "y": 0.4298,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4793,
+     "y": 0.424,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.4927,
+     "y": 0.4258,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.489,
+     "y": 0.4298,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.4954,
+     "y": 0.4308,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.4871,
+     "y": 0.4243,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.4933,
+     "y": 0.4265,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.4871,
+     "y": 0.4218,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.49,
+     "y": 0.4239,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 289,
+   "timeSec": 12.08,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.459,
+     "y": 0.4433,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4608,
+     "y": 0.4174,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4877,
+     "y": 0.4514,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.5049,
+     "y": 0.4025,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.5228,
+     "y": 0.4487,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.5301,
+     "y": 0.4029,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.5159,
+     "y": 0.4296,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5652,
+     "y": 0.3997,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5758,
+     "y": 0.422,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.6516,
+     "y": 0.3843,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.6563,
+     "y": 0.4121,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.7179,
+     "y": 0.369,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.7219,
+     "y": 0.4065,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 290,
+   "timeSec": 12.12,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4591,
+     "y": 0.4424,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4626,
+     "y": 0.4201,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4917,
+     "y": 0.4515,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.5025,
+     "y": 0.4053,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.5387,
+     "y": 0.449,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.5305,
+     "y": 0.4029,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.5494,
+     "y": 0.4295,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5669,
+     "y": 0.4038,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5799,
+     "y": 0.4228,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.6529,
+     "y": 0.3886,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.6362,
+     "y": 0.4105,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.6944,
+     "y": 0.3704,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.6846,
+     "y": 0.4015,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 291,
+   "timeSec": 12.16,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4699,
+     "y": 0.4384,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4815,
+     "y": 0.4169,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.5117,
+     "y": 0.45,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.5079,
+     "y": 0.3992,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.5545,
+     "y": 0.4438,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.5465,
+     "y": 0.4001,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.5723,
+     "y": 0.43,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5875,
+     "y": 0.3974,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.601,
+     "y": 0.4206,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.6632,
+     "y": 0.3839,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.6643,
+     "y": 0.4066,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.7167,
+     "y": 0.356,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.7115,
+     "y": 0.3893,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 292,
+   "timeSec": 12.2,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4624,
+     "y": 0.4341,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4712,
+     "y": 0.4171,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4969,
+     "y": 0.4459,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4962,
+     "y": 0.4052,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.5253,
+     "y": 0.4407,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4978,
+     "y": 0.4215,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.5203,
+     "y": 0.4297,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5665,
+     "y": 0.4002,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5794,
+     "y": 0.42,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.6551,
+     "y": 0.3854,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.6565,
+     "y": 0.4056,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.7108,
+     "y": 0.3631,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.7113,
+     "y": 0.3929,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 293,
+   "timeSec": 12.24,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4612,
+     "y": 0.4229,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4718,
+     "y": 0.4072,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4927,
+     "y": 0.4376,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.5034,
+     "y": 0.3961,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.5316,
+     "y": 0.4371,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.5291,
+     "y": 0.4014,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.5385,
+     "y": 0.4291,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5612,
+     "y": 0.3958,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5712,
+     "y": 0.4166,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.6398,
+     "y": 0.3832,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.6482,
+     "y": 0.4027,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.7054,
+     "y": 0.3644,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.7112,
+     "y": 0.3911,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 294,
+   "timeSec": 12.28,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4501,
+     "y": 0.4221,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4596,
+     "y": 0.4039,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.474,
+     "y": 0.4289,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4806,
+     "y": 0.4038,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4817,
+     "y": 0.4343,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4491,
+     "y": 0.4398,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.4642,
+     "y": 0.4407,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.549,
+     "y": 0.3943,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5553,
+     "y": 0.4129,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.6274,
+     "y": 0.3846,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.6317,
+     "y": 0.3999,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.6978,
+     "y": 0.3702,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.6987,
+     "y": 0.3908,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 295,
+   "timeSec": 12.32,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4405,
+     "y": 0.4252,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4462,
+     "y": 0.4081,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4578,
+     "y": 0.4304,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4695,
+     "y": 0.411,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4724,
+     "y": 0.4372,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4607,
+     "y": 0.4257,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.458,
+     "y": 0.4462,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5187,
+     "y": 0.4035,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5231,
+     "y": 0.4189,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.5869,
+     "y": 0.3959,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.5852,
+     "y": 0.4082,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.643,
+     "y": 0.3884,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.6408,
+     "y": 0.4047,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 296,
+   "timeSec": 12.36,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.422,
+     "y": 0.4265,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4388,
+     "y": 0.4104,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.448,
+     "y": 0.4332,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4656,
+     "y": 0.4062,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4695,
+     "y": 0.4388,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4693,
+     "y": 0.417,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.4739,
+     "y": 0.4363,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5208,
+     "y": 0.407,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5248,
+     "y": 0.4217,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.5939,
+     "y": 0.403,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.5926,
+     "y": 0.4153,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.6553,
+     "y": 0.3967,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.6509,
+     "y": 0.415,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 297,
+   "timeSec": 12.4,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4555,
+     "y": 0.4509,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4657,
+     "y": 0.4203,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4652,
+     "y": 0.4517,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.482,
+     "y": 0.4208,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4792,
+     "y": 0.4667,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4744,
+     "y": 0.4376,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.472,
+     "y": 0.4721,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5535,
+     "y": 0.4207,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5559,
+     "y": 0.4404,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.6166,
+     "y": 0.4191,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.6172,
+     "y": 0.4336,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.6739,
+     "y": 0.408,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.675,
+     "y": 0.4294,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 298,
+   "timeSec": 12.44,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.429,
+     "y": 0.4533,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.447,
+     "y": 0.4384,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4506,
+     "y": 0.452,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4635,
+     "y": 0.4344,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4576,
+     "y": 0.4539,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4477,
+     "y": 0.4417,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.4371,
+     "y": 0.4476,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5268,
+     "y": 0.4337,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.528,
+     "y": 0.4445,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.5849,
+     "y": 0.4317,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.5785,
+     "y": 0.4405,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.6367,
+     "y": 0.4244,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.6271,
+     "y": 0.4433,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 299,
+   "timeSec": 12.48,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.424,
+     "y": 0.4546,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4417,
+     "y": 0.442,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4452,
+     "y": 0.4514,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4521,
+     "y": 0.4392,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4457,
+     "y": 0.4477,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4323,
+     "y": 0.4495,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.4303,
+     "y": 0.4442,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5221,
+     "y": 0.4368,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.522,
+     "y": 0.4456,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.5851,
+     "y": 0.4338,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.575,
+     "y": 0.4421,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.6375,
+     "y": 0.4278,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.6274,
+     "y": 0.4444,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 300,
+   "timeSec": 12.52,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4284,
+     "y": 0.4585,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4424,
+     "y": 0.4429,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4436,
+     "y": 0.4536,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4596,
+     "y": 0.4462,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4417,
+     "y": 0.462,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4438,
+     "y": 0.4533,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.4347,
+     "y": 0.4568,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5131,
+     "y": 0.442,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5125,
+     "y": 0.4522,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.5781,
+     "y": 0.4397,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.571,
+     "y": 0.4524,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.627,
+     "y": 0.4336,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.6224,
+     "y": 0.4523,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 301,
+   "timeSec": 12.56,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4078,
+     "y": 0.4548,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4283,
+     "y": 0.4436,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4283,
+     "y": 0.4548,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4452,
+     "y": 0.4465,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4266,
+     "y": 0.4624,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4178,
+     "y": 0.4502,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.4062,
+     "y": 0.4572,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5109,
+     "y": 0.4452,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5107,
+     "y": 0.4548,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.5686,
+     "y": 0.4454,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.5653,
+     "y": 0.4561,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.6224,
+     "y": 0.4413,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.6133,
+     "y": 0.4596,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 302,
+   "timeSec": 12.6,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4148,
+     "y": 0.4604,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4322,
+     "y": 0.4489,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4342,
+     "y": 0.4637,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4429,
+     "y": 0.4448,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4279,
+     "y": 0.4697,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4288,
+     "y": 0.4509,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.4198,
+     "y": 0.4603,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5174,
+     "y": 0.4556,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.5181,
+     "y": 0.4651,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.4855,
+     "y": 0.4521,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.4876,
+     "y": 0.4706,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.4896,
+     "y": 0.4438,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.463,
+     "y": 0.4604,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 303,
+   "timeSec": 12.64,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4238,
+     "y": 0.4514,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4462,
+     "y": 0.4454,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4416,
+     "y": 0.4638,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4605,
+     "y": 0.4414,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4569,
+     "y": 0.4664,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4639,
+     "y": 0.4403,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.4554,
+     "y": 0.4564,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.5238,
+     "y": 0.4511,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.523,
+     "y": 0.4665,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.5843,
+     "y": 0.45,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.5728,
+     "y": 0.4685,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.6356,
+     "y": 0.4496,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.6351,
+     "y": 0.4702,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 305,
+   "timeSec": 12.72,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.4074,
+     "y": 0.4551,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.4092,
+     "y": 0.4569,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.4059,
+     "y": 0.4581,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.4143,
+     "y": 0.4608,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.4093,
+     "y": 0.4623,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.4155,
+     "y": 0.4651,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.411,
+     "y": 0.4646,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.4149,
+     "y": 0.4639,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.4126,
+     "y": 0.4646,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.4188,
+     "y": 0.4676,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.4141,
+     "y": 0.47,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.4185,
+     "y": 0.4718,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.4138,
+     "y": 0.4749,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 316,
+   "timeSec": 13.2,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.342,
+     "y": 0.4347,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.3292,
+     "y": 0.4252,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.3529,
+     "y": 0.428,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.3314,
+     "y": 0.4188,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.3581,
+     "y": 0.4216,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.3438,
+     "y": 0.4244,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.353,
+     "y": 0.4209,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.3464,
+     "y": 0.3978,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.3613,
+     "y": 0.4009,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.3545,
+     "y": 0.3779,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.3655,
+     "y": 0.3842,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.3572,
+     "y": 0.3632,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.377,
+     "y": 0.3709,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 317,
+   "timeSec": 13.24,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.3416,
+     "y": 0.4535,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.3238,
+     "y": 0.4383,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.349,
+     "y": 0.4399,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.3251,
+     "y": 0.4237,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.3527,
+     "y": 0.4308,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.3313,
+     "y": 0.4332,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.339,
+     "y": 0.4367,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.3386,
+     "y": 0.404,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.3542,
+     "y": 0.4049,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.3407,
+     "y": 0.3887,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.3561,
+     "y": 0.3908,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.3382,
+     "y": 0.3736,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.3521,
+     "y": 0.381,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 318,
+   "timeSec": 13.28,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.3389,
+     "y": 0.4597,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.323,
+     "y": 0.4529,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.3477,
+     "y": 0.4536,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.3222,
+     "y": 0.4432,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.3526,
+     "y": 0.4501,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.3277,
+     "y": 0.4422,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.3386,
+     "y": 0.4506,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.3376,
+     "y": 0.4239,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.3491,
+     "y": 0.4255,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.3292,
+     "y": 0.4277,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.3429,
+     "y": 0.4383,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.3334,
+     "y": 0.4297,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.3359,
+     "y": 0.4318,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 319,
+   "timeSec": 13.32,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.3221,
+     "y": 0.4757,
+     "visibility": 0.786
+    },
+    {
+     "index": 11,
+     "x": 0.3146,
+     "y": 0.4674,
+     "visibility": 0.963
+    },
+    {
+     "index": 12,
+     "x": 0.3448,
+     "y": 0.4688,
+     "visibility": 0.931
+    },
+    {
+     "index": 13,
+     "x": 0.3102,
+     "y": 0.4517,
+     "visibility": 0.455
+    },
+    {
+     "index": 14,
+     "x": 0.3456,
+     "y": 0.4549,
+     "visibility": 0.218
+    },
+    {
+     "index": 15,
+     "x": 0.3103,
+     "y": 0.442,
+     "visibility": 0.32
+    },
+    {
+     "index": 16,
+     "x": 0.3347,
+     "y": 0.4489,
+     "visibility": 0.225
+    },
+    {
+     "index": 23,
+     "x": 0.3297,
+     "y": 0.4372,
+     "visibility": 0.526
+    },
+    {
+     "index": 24,
+     "x": 0.3461,
+     "y": 0.4376,
+     "visibility": 0.542
+    },
+    {
+     "index": 25,
+     "x": 0.3138,
+     "y": 0.4274,
+     "visibility": 0.121
+    },
+    {
+     "index": 26,
+     "x": 0.3433,
+     "y": 0.4305,
+     "visibility": 0.114
+    },
+    {
+     "index": 27,
+     "x": 0.3176,
+     "y": 0.4208,
+     "visibility": 0.127
+    },
+    {
+     "index": 28,
+     "x": 0.3325,
+     "y": 0.4245,
+     "visibility": 0.118
+    }
+   ]
+  },
+  {
+   "frame": 320,
+   "timeSec": 13.36,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.321,
+     "y": 0.468,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.3159,
+     "y": 0.4609,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.3332,
+     "y": 0.4623,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.3181,
+     "y": 0.4532,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.3358,
+     "y": 0.4559,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.322,
+     "y": 0.4568,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.3289,
+     "y": 0.4585,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.3291,
+     "y": 0.4416,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.3376,
+     "y": 0.4427,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.3197,
+     "y": 0.4352,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.3374,
+     "y": 0.4388,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.3271,
+     "y": 0.4288,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.3351,
+     "y": 0.4316,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 330,
+   "timeSec": 13.76,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.2787,
+     "y": 0.4602,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.2744,
+     "y": 0.4569,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.2807,
+     "y": 0.4573,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.2793,
+     "y": 0.4533,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.287,
+     "y": 0.4556,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.2845,
+     "y": 0.4562,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.2855,
+     "y": 0.4573,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.2775,
+     "y": 0.4496,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.2811,
+     "y": 0.4499,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.2725,
+     "y": 0.4443,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.2791,
+     "y": 0.4463,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.2698,
+     "y": 0.4415,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.2828,
+     "y": 0.4443,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 331,
+   "timeSec": 13.8,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.2729,
+     "y": 0.4601,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.2679,
+     "y": 0.457,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.2763,
+     "y": 0.4573,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.2671,
+     "y": 0.4541,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.2819,
+     "y": 0.4548,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.2687,
+     "y": 0.4535,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.2755,
+     "y": 0.4562,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.2723,
+     "y": 0.449,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.2767,
+     "y": 0.4494,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.2713,
+     "y": 0.4408,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.2752,
+     "y": 0.4432,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.2705,
+     "y": 0.4378,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.277,
+     "y": 0.4389,
+     "visibility": 0.0
+    }
+   ]
+  },
+  {
+   "frame": 348,
+   "timeSec": 14.52,
+   "landmarks": [
+    {
+     "index": 0,
+     "x": 0.1034,
+     "y": 0.4388,
+     "visibility": 0.0
+    },
+    {
+     "index": 11,
+     "x": 0.1051,
+     "y": 0.4387,
+     "visibility": 0.0
+    },
+    {
+     "index": 12,
+     "x": 0.1038,
+     "y": 0.4398,
+     "visibility": 0.0
+    },
+    {
+     "index": 13,
+     "x": 0.1061,
+     "y": 0.4391,
+     "visibility": 0.0
+    },
+    {
+     "index": 14,
+     "x": 0.1049,
+     "y": 0.4402,
+     "visibility": 0.0
+    },
+    {
+     "index": 15,
+     "x": 0.1056,
+     "y": 0.4394,
+     "visibility": 0.0
+    },
+    {
+     "index": 16,
+     "x": 0.1052,
+     "y": 0.4398,
+     "visibility": 0.0
+    },
+    {
+     "index": 23,
+     "x": 0.1081,
+     "y": 0.4402,
+     "visibility": 0.0
+    },
+    {
+     "index": 24,
+     "x": 0.1073,
+     "y": 0.441,
+     "visibility": 0.0
+    },
+    {
+     "index": 25,
+     "x": 0.1113,
+     "y": 0.4409,
+     "visibility": 0.0
+    },
+    {
+     "index": 26,
+     "x": 0.1108,
+     "y": 0.4416,
+     "visibility": 0.0
+    },
+    {
+     "index": 27,
+     "x": 0.1139,
+     "y": 0.4417,
+     "visibility": 0.0
+    },
+    {
+     "index": 28,
+     "x": 0.113,
+     "y": 0.4422,
+     "visibility": 0.0
+    }
+   ]
+  }
+ ],
+ "_release": {
+  "athlete": "P01 (the author; parental consent on file)",
+  "clip": "lowlight_control",
+  "pipeline_commit": "c48c714 (pose-service unchanged through ddb8b1c)",
+  "release_frame_selection": "n/a (capture failed)",
+  "licence": "CC BY 4.0"
+ }
+}

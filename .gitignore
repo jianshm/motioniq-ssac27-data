@@ -1,0 +1,16 @@
+# consent-gated material never leaves this machine until the written OK is on file (see docs/RELEASE_CHECKLIST.md)
+_pending_consent/
+# never: video, frames, images of people, model weights, pipeline code
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.jpg
+*.jpeg
+*.heic
+*.pt
+*.onnx
+*.tflite
+__pycache__/
+.DS_Store
+._*

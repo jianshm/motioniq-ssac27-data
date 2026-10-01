@@ -1,0 +1,73 @@
+metric,session_label,n,mean,sd,min,max
+BFC→FFC (ms),January,3,140.0,112.694,70.0,270.0
+BFC→FFC (ms),July,3,176.667,20.817,160.0,200.0
+FFC→REL (ms),January,3,193.333,85.049,110.0,280.0
+FFC→REL (ms),July,3,103.333,15.275,90.0,120.0
+BFC→REL (ms),January,3,333.333,56.862,270.0,380.0
+BFC→REL (ms),July,3,280.0,10.0,270.0,290.0
+Front knee flexion @FFC (°),January,3,9.783,2.947,6.62,12.45
+Front knee flexion @FFC (°),July,3,8.137,3.035,5.49,11.45
+Front knee flexion @REL (°),January,3,17.643,14.948,4.08,33.67
+Front knee flexion @REL (°),July,3,19.703,12.218,5.86,28.98
+Front knee max flexion FFC→REL (°),January,3,28.81,9.422,20.71,39.15
+Front knee max flexion FFC→REL (°),July,3,25.27,3.325,22.56,28.98
+Front knee min flexion FFC→REL (°),January,3,8.86,4.472,3.85,12.45
+Front knee min flexion FFC→REL (°),July,3,6.453,0.991,5.49,7.47
+Back knee flexion @BFC (°),January,3,18.253,3.745,13.96,20.85
+Back knee flexion @BFC (°),July,3,41.007,3.638,38.7,45.2
+Bowling elbow flexion @REL (°),January,3,24.14,21.564,6.5,48.18
+Bowling elbow flexion @REL (°),July,3,20.173,9.559,12.86,30.99
+Bowling elbow flexion @FFC (°),January,3,23.51,7.819,18.29,32.5
+Bowling elbow flexion @FFC (°),July,3,8.71,1.135,8.04,10.02
+Bowling elbow max flexion FFC→REL (°),January,3,30.687,16.939,18.67,50.06
+Bowling elbow max flexion FFC→REL (°),July,3,20.173,9.559,12.86,30.99
+Elbow extension FFC→REL (°),January,3,6.547,5.211,1.88,12.17
+Elbow extension FFC→REL (°),July,3,0.0,0.0,0.0,0.0
+Elbow flexion @REL±3 samples range (°),January,3,7.95,6.854,2.12,15.5
+Elbow flexion @REL±3 samples range (°),July,3,16.257,3.831,13.69,20.66
+Spine lateral flexion @REL (°) [trunk rel. pelvis],January,3,13.413,12.968,-0.66,24.88
+Spine lateral flexion @REL (°) [trunk rel. pelvis],July,3,4.763,4.821,1.42,10.29
+Trunk frontal (abs) @REL (°),January,3,27.383,9.516,16.72,35.01
+Trunk frontal (abs) @REL (°),July,3,22.987,2.183,21.56,25.5
+Spine lateral flexion @FFC (°),January,3,1.3,7.335,-4.42,9.57
+Spine lateral flexion @FFC (°),July,3,-9.683,3.721,-13.96,-7.19
+Spine lateral flexion peak FFC→REL+10 (°),January,3,28.823,2.815,25.98,31.61
+Spine lateral flexion peak FFC→REL+10 (°),July,3,52.127,6.086,48.24,59.14
+"Trunk flexion (sag, abs) @REL (°)",January,3,21.7,40.17,-24.59,47.41
+"Trunk flexion (sag, abs) @REL (°)",July,3,-23.31,1.487,-24.65,-21.71
+Spine flexion @REL (°),January,3,24.72,25.823,-4.56,44.24
+Spine flexion @REL (°),July,3,-5.603,5.187,-11.56,-2.08
+Shoulder–hip separation @FFC (°) [spine rotation],January,3,-5.88,3.858,-10.32,-3.34
+Shoulder–hip separation @FFC (°) [spine rotation],July,3,-12.737,3.234,-16.19,-9.78
+Shoulder–hip separation @BFC (°),January,3,3.047,1.867,0.96,4.56
+Shoulder–hip separation @BFC (°),July,3,7.907,2.286,5.38,9.83
+Shoulder–hip separation @REL (°),January,3,6.38,17.387,-13.43,19.11
+Shoulder–hip separation @REL (°),July,3,-7.207,7.255,-12.09,1.13
+Shoulder–hip separation @REL (°) |abs|,January,3,15.333,3.271,13.43,19.11
+Shoulder–hip separation @REL (°) |abs|,July,3,7.96,5.958,1.13,12.09
+Shoulder–hip separation peak BFC→REL (°),January,3,-22.853,0.525,-23.33,-22.29
+Shoulder–hip separation peak BFC→REL (°),July,3,-19.01,2.272,-20.75,-16.44
+Trunk rotation (abs) @REL (°),January,3,8.107,43.83,-42.35,36.75
+Trunk rotation (abs) @REL (°),July,3,-30.527,1.324,-31.96,-29.35
+Pelvis rotation (abs) @REL (°),January,3,1.727,27.264,-28.92,23.29
+Pelvis rotation (abs) @REL (°),July,3,-23.323,7.028,-31.41,-18.69
+Head frontal (abs) @FFC (°),January,3,-10.75,10.291,-17.93,1.04
+Head frontal (abs) @REL (°),January,3,19.613,21.118,-3.86,37.07
+Neck lateral flexion @REL (°),January,3,-7.773,13.681,-20.58,6.64
+Peak upper-arm angular rate (°/s),January,3,2254.833,332.367,2019.8,2635.1
+Peak upper-arm angular rate (°/s),July,3,2035.4,153.683,1862.7,2157.1
+Peak forearm |a| (m/s²),July,3,236.856,14.115,220.641,246.391
+Follow-through arm sweep after REL (°),January,3,163.057,91.993,97.45,268.21
+Follow-through arm sweep after REL (°),July,3,284.37,12.876,271.41,297.16
+Follow-through duration (ms),January,3,140.0,62.45,90.0,210.0
+Follow-through duration (ms),July,3,253.333,15.275,240.0,270.0
+Shoulder abduction (R) @REL (°),January,3,149.16,34.474,110.87,177.73
+Shoulder abduction (R) @REL (°),July,3,107.42,10.395,95.43,113.9
+Shoulder flexion (R) @REL (°),January,3,78.957,166.277,-112.75,184.0
+Shoulder flexion (R) @REL (°),July,3,-110.707,5.831,-116.6,-104.94
+Hip flexion (front/L) @FFC (°),January,3,30.77,9.425,20.94,39.73
+Hip flexion (front/L) @FFC (°),July,3,32.067,9.442,25.94,42.94
+Run-up stride period (ms),January,3,560.0,20.0,540.0,580.0
+Run-up stride period (ms),July,3,496.667,5.774,490.0,500.0
+Run-up stride regularity (autocorr r),January,3,0.777,0.015,0.764,0.793
+Run-up stride regularity (autocorr r),July,3,0.553,0.037,0.511,0.576

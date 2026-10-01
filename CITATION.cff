@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+title: "When Should a Phone Refuse to Measure? Confidence-gated single-camera biomechanics for cricket fast bowling — released data"
+authors:
+  - family-names: Maker
+    given-names: Jiansh
+version: 0.1.0-abstract
+date-released: 2026-10-01
+license: CC-BY-4.0
+repository-code: "https://github.com/jianshm/motioniq-ssac27-data"
+abstract: "Anonymised camera metrics with per-metric provenance, sensor-session envelopes, pre-specified tolerances and gates, and the comparison script behind Table 1 and Figure 1 of the SSAC27 Research Paper Competition abstract."
