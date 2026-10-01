@@ -1,6 +1,6 @@
 # motioniq-ssac27-data
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23073507.svg)](https://doi.org/10.5281/zenodo.23073507) · Pre-registration: [osf.io/sxawp](https://osf.io/sxawp)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23073506.svg)](https://doi.org/10.5281/zenodo.23073506) · Pre-registration: [osf.io/sxawp](https://osf.io/sxawp)
 
 Released data behind **"When Should a Phone Refuse to Measure? Confidence-Gated Single-Camera Biomechanics for Cricket Pace Bowling"** — an abstract submitted to the MIT Sloan Sports Analytics Conference 2027 Research Paper Competition (sole author: Jiansh Maker; October 1, 2026). Every number in the abstract's Table 1 and Figure 1 can be recomputed from the files here with two short scripts. The measurement pipeline itself (pose estimation, event detection, confidence gating, provenance) is not part of this release; the competition requires the data, and encourages but does not require the model code.
 
@@ -15,7 +15,7 @@ Released data behind **"When Should a Phone Refuse to Measure? Confidence-Gated 
 | `analysis/compare.py` | Recomputes every delta and verdict from the files above and checks them against `table1_expected.csv`. Exit code 0 means Table 1 reproduces. | MIT |
 | `analysis/figure1.py` | Regenerates Figure 1 (`figures/Figure1.png`). | MIT |
 | `analysis/scrub_check.py` | Fails if anything identifying has crept into the release. | MIT |
-| `docs/PROGRAM_A_protocol.md` | The pre-registered paired camera–sensor study of 6–12 bowlers (October–November 2026; OSF osf.io/sxawp) whose results the full paper will report. Committed before the first capture. | CC BY 4.0 |
+| `docs/PROGRAM_A_protocol.md` | The pre-registered paired camera–sensor study of 6–12 pace bowlers (plus a separately analysed spin stratum) (October–November 2026; OSF osf.io/sxawp) whose results the full paper will report. Committed before the first capture. | CC BY 4.0 |
 | `docs/RELEASE_CHECKLIST.md` | Consent, anonymisation and reproducibility checks run before every push. | — |
 
 Per-delivery sensor files (peak upper-arm angular rate, the ±3-sample ranges, per-delivery events) are held back in `_pending_consent/` (git-ignored) until the manufacturer's written consent is on file, at which point they move to `data/sensor/per_delivery_release_metrics.csv` and `analysis/figure1.py` reads them directly. Until then Figure 1 is drawn from the six values quoted in the abstract, embedded in the script.
@@ -23,8 +23,10 @@ Per-delivery sensor files (peak upper-arm angular rate, the ±3-sample ranges, p
 ## Reproduce
 
 ```bash
-python3 analysis/compare.py      # prints both clips against both sensor sessions; exit 0 = Table 1 reproduces
-python3 analysis/figure1.py      # writes figures/Figure1.png   (needs numpy, matplotlib)
+python3 -m pip install -r requirements.txt   # numpy + matplotlib, needed by figure1.py only
+python3 analysis/compare.py      # standard library only; prints both clips against both sensor sessions; exit 0 = Table 1 reproduces
+python3 analysis/scrub_check.py  # standard library only; "scrub check: clean"
+python3 analysis/figure1.py      # writes figures/Figure1.png
 ```
 
 ## How to read the comparison
@@ -33,11 +35,11 @@ The camera clips and the sensor sessions were **not recorded at the same time** 
 
 ## Anonymisation and consent
 
-The only athlete in this release is the author (P01), a minor, with parental consent. No video, frame or image of any person is included; landmark streams are pixel coordinates. Sensor data are derived metrics, released with the manufacturer's consent as recorded in `docs/RELEASE_CHECKLIST.md`. Clips of other bowlers used in the pipeline's regression harness are not part of this release; where the abstract cites them ("8 of 18 corpus clips"), it cites counts only.
+The only athlete in this release is the author (P01), a minor, with parental consent. No video, frame or image of any person is included; landmark streams are pixel coordinates. The sensor data released here are session-level aggregates (envelopes, n = 3 deliveries per session); per-delivery sensor files are held back until the manufacturer's written consent is on file (`docs/RELEASE_CHECKLIST.md`). Clips of other bowlers used in the pipeline's regression harness are not part of this release; where the abstract cites them (">40° on 7 of 17 front-on corpus clips": distinct videos, values emitted by the pipeline, not errors measured against a reference), it cites counts only.
 
 ## Versions
 
-`v0.1.0-abstract` (Oct 1 2026) → `v1.0.0-paper` (Dec 4 2026, adds the Program A paired data) → `v1.1.0-camera-ready` (Feb 2027). Each GitHub release mints a Zenodo DOI; cite the DOI of the version you used (`CITATION.cff`).
+`v0.1.0-abstract` (Oct 1 2026) → `v0.1.1-abstract` (Oct 1 2026; Figure 1 labels match the submitted abstract, README fixes, no data changed) → `v1.0.0-paper` (Dec 4 2026, adds the Program A paired data) → `v1.1.0-camera-ready` (Feb 2027). Each GitHub release mints a Zenodo version DOI; the concept DOI 10.5281/zenodo.23073506 always resolves to the latest version. Cite the version DOI of the release you used (`CITATION.cff`).
 
 ## Contact
 
